@@ -11,17 +11,30 @@ function AppHeader() {
         pb-4 pt-[calc(env(safe-area-inset-top)+30px)] backdrop-blur-md
       "
     >
-      <button
-        type="button"
-        className="relative grid h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-white bg-gradient-to-br from-opodis-100 to-opodis-cream text-xs font-bold text-opodis-700 shadow-opodis transition active:scale-95"
-        aria-label="Ảnh đại diện người dùng"
+      <div
+        className="grid h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-white bg-opodis-700 text-white shadow-opodis"
+        role="img"
+        aria-label="Biểu tượng lá Opodis"
       >
-        NH
-        <span
-          className="absolute bottom-0 right-0 h-2.5 w-2.5 rounded-full border-2 border-white bg-opodis-500"
+        <svg
+          viewBox="0 0 24 24"
+          className="h-5 w-5"
+          fill="none"
           aria-hidden="true"
-        />
-      </button>
+        >
+          <path
+            d="M19.7 4.3C13.6 4.5 7.2 6.6 5.2 11.5c-1.1 2.7-.2 5.5 2.1 6.7 2.4 1.3 5.4.4 7.2-1.8 2.7-3.3 3.6-7.9 5.2-12.1Z"
+            fill="currentColor"
+            opacity=".95"
+          />
+          <path
+            d="M4 20c2.4-4.7 6.2-8 11.8-10.3"
+            stroke="#1f6147"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+          />
+        </svg>
+      </div>
 
       <img
         src={opodisLogo}
