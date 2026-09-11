@@ -10,6 +10,8 @@ import { AppProps } from "zmp-ui/app"
 
 import HomePage from "@/pages/index"
 import ProductDetailPage from "@/pages/product-detail"
+import AboutPage from "@/pages/about"
+import BottomNavigation from "@/components/bottom-navigation"
 
 const Layout = () => {
   return (
@@ -19,7 +21,9 @@ const Layout = () => {
           <AnimationRoutes>
             <Route path="/" element={<HomePage />} />
             <Route path="/product/:id" element={<ProductDetailPage />} />
+            <Route path="/about" element={<AboutPage />}></Route>
           </AnimationRoutes>
+          <BottomNavigation />
         </ZMPRouter>
       </SnackbarProvider>
     </App>

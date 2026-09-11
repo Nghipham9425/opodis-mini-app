@@ -25,7 +25,7 @@ function ProductDetailPage() {
 
   if (!product) {
     return (
-      <Page className="page" hideScrollbar>
+      <Page className="page page-with-bottom-nav" hideScrollbar>
         <main className="flex min-h-screen flex-col items-center justify-center text-center">
           <div className="mb-5 grid h-16 w-16 place-items-center rounded-full bg-opodis-100 text-2xl">
             ?
@@ -52,7 +52,7 @@ function ProductDetailPage() {
   }
 
   return (
-    <Page className="page" hideScrollbar>
+    <Page className="page page-with-bottom-nav" hideScrollbar>
       <header className="sticky top-0 z-20 -mx-4 flex items-center border-b border-opodis-border/50 bg-opodis-50/90 px-4 pb-3 pt-[calc(env(safe-area-inset-top)+28px)] backdrop-blur-md">
         <button
           type="button"
@@ -68,14 +68,14 @@ function ProductDetailPage() {
         </h1>
       </header>
 
-      <main className="pb-8">
-        <section className="relative min-h-[340px] overflow-hidden rounded-opodis-lg bg-[#e7eee5]">
-          <div className="absolute inset-7">
+      <main className="pb-[88px]">
+        <section className="relative aspect-[1/0.92] overflow-hidden rounded-opodis-lg border border-opodis-border/60 bg-white shadow-[0_8px_24px_rgba(35,76,56,0.05)]">
+          <div className="absolute inset-5 sm:inset-7">
             <img
               src={product.image}
               alt={product.name}
               onError={handleImageError}
-              className="h-full w-full object-contain mix-blend-multiply drop-shadow-[0_18px_20px_rgba(24,55,44,0.12)]"
+              className="h-full w-full object-contain mix-blend-multiply drop-shadow-[0_12px_16px_rgba(24,55,44,0.1)]"
             />
           </div>
         </section>
@@ -201,7 +201,6 @@ function ProductDetailPage() {
               ))}
             </div>
           </section>
-
         </section>
       </main>
     </Page>

@@ -1,10 +1,10 @@
 // ZaUI stylesheet
 import "zmp-ui/zaui.css";
 // Vietnamese-friendly local font
-import "@fontsource/be-vietnam-pro/400.css";
-import "@fontsource/be-vietnam-pro/500.css";
-import "@fontsource/be-vietnam-pro/600.css";
-import "@fontsource/be-vietnam-pro/700.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
 // Tailwind stylesheet
 import "@/css/tailwind.scss";
 // Your stylesheet

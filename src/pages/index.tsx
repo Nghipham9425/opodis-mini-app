@@ -33,10 +33,10 @@ function HomePage() {
   const badges = ["Bán chạy", "Nổi bật", "Được yêu thích"]
 
   return (
-    <Page className="page" hideScrollbar>
+    <Page className="page page-with-bottom-nav" hideScrollbar>
       <AppHeader />
 
-      <main>
+      <main className="pb-[88px]">
         <HeroBanner />
 
         <section className="pb-7 pt-6">
