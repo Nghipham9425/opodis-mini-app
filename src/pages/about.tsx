@@ -12,7 +12,10 @@ function AboutPage() {
 
       <main className="pb-[88px]">
         <section className="relative overflow-hidden rounded-opodis-lg border border-opodis-border/60 bg-gradient-to-br from-opodis-100 via-white to-opodis-cream px-6 py-8 shadow-[0_8px_24px_rgba(35,76,56,0.05)]">
-          <div className="absolute -bottom-12 -right-8 h-40 w-40 rounded-full border-[18px] border-white/45" aria-hidden="true" />
+          <div
+            className="absolute -bottom-12 -right-8 h-40 w-40 rounded-full border-[18px] border-white/45"
+            aria-hidden="true"
+          />
 
           <p className="relative m-0 text-[10px] font-bold uppercase tracking-[0.16em] text-opodis-500">
             Dược liệu Việt

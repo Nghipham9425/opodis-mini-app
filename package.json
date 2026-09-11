@@ -2,8 +2,8 @@
   "name": "opodis-mini-app",
   "private": true,
   "version": "1.0.0",
-  "description": "zmp-blank-templates",
-  "repository": "",
+  "description": "Zalo Mini App giới thiệu sản phẩm Opodis Pharma sử dụng mock data.",
+  "repository": "https://github.com/Nghipham9425/opodis-mini-app.git",
   "license": "UNLICENSED",
   "browserslist": [
     "Android >= 5",
@@ -20,7 +20,6 @@
     "deploy": "zmp deploy"
   },
   "dependencies": {
-    "@fontsource/be-vietnam-pro": "^5.2.6",
     "@fontsource/inter": "^5.3.0",
     "jotai": "^2.12.1",
     "react": "^18.3.1",

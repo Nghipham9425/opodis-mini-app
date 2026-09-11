@@ -39,7 +39,9 @@ function HeroBanner() {
 
         <h1 className="mb-3 mt-4 text-[28px] font-light leading-[1.08] text-opodis-text">
           Dịu lành cho
-          <span className="block font-semibold text-opodis-700">cả gia đình</span>
+          <span className="block font-semibold text-opodis-700">
+            cả gia đình
+          </span>
         </h1>
 
         <p
